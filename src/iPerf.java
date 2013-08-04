@@ -1,5 +1,4 @@
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -329,31 +328,6 @@ public class iPerf extends JFrame implements ActionListener{
 			}
 		}
 	}
-	
-	/*private class writeToFile extends Thread {
-		public void run() {
-			try {
-	   			 
-				File file = new File("newresults.txt");
-			     
-    			// if file doesnt exists, then create it
-    			if (!file.exists()) {
-    				file.createNewFile();
-    			}
-     
-    			FileWriter fw = new FileWriter(file.getAbsoluteFile());
-    			BufferedWriter bw = new BufferedWriter(fw);
-    			bw.write(iPerfResults);
-    			bw.close();
-     
-    			System.out.println("Done"); 
-				
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}*/
 	
 	private void writeToFile(String result){
 		
